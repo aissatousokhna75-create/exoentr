@@ -13,6 +13,7 @@ int main(){
 
     }
      moyenne=somme/n;
+     printf("la moyenne est",moyenne);
 
 
     printf("%d est triangulaire\ n",n);
