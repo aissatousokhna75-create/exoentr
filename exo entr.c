@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 int main(){
-    int n,i,somme;
+    int n,i,somme,moyenne;
     do{
         printf("saisir un nombre positif");
         scanf("%d", &n);
@@ -10,9 +10,14 @@ int main(){
         somme=somme+1;
 
 
+
     }
+     moyenne=somme/n;
+
 
     printf("%d est triangulaire\ n",n);
+
+
 
 
 
